@@ -201,7 +201,7 @@ function setRedirectingPattern(msg)
 			'scroll'
 		), {duration: 100}
 		
-	},300);
+	},500);
 	
 }
 
