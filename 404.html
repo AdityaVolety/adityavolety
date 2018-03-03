@@ -126,8 +126,8 @@
   }
 </style>
 <meta charset="UTF-8">
-<title>Akshay Sonvane</title>
-<meta name="keywords" content="akshay, sonvane, akshaysonvane, akshay sonvane, programmer, developer, coder, programmers, developers, coders, portfolio, profile">
+<title>Yogesh Jadhav</title>
+<meta name="keywords" content="Yogesh, Jadhav, yogeshjadhav, yogesh jadhav, programmer, developer, coder, programmers, developers, coders, portfolio, profile">
 <meta name="description" content="A portfolio that pleases your inner geek. 'May the source be with you.'">
 <link rel="shortcut icon" href="images/icon.ico">
 <div class="container">
@@ -136,7 +136,7 @@
   </form>
 
   <div class="terminal">
-    <p class="prompt">The page you requested cannot be found right meow. Try typing 'kittens'.</p>
+    <p class="prompt">The page you requested cannot be found right meow. Try typing 'kittens' or 'exit' to return home.</p>
     <p class="prompt output new-output"></p>
   </div>
 </div>
@@ -164,9 +164,16 @@
     var val = $(this).children($('.404-input')).val().toLowerCase();
     var href;
 
-    if (val === 'kittens') {
+    if (val === 'kittens') 
+    {
       showKittens();
-    } else {
+    } 
+    else if (val === 'exit')
+    {
+      returnHome();
+    }
+    else
+    {
       resetForm();
     }
   });
@@ -238,6 +245,17 @@
     }, (lines.length * 100) + 1000);
   }
 
+  function returnHome()
+  {
+	setTimeout(function(){
+		location.href = "http://pgyogesh.com/";
+		}, 3000);
+		
+	$('.terminal').append("<p class='prompt'>Redirecting</p>");
+		
+	setRedirectingPattern("*");
+	
+  }
   function textEffect(line) {
     var alpha = [';', '.', ',', ':', ';', '~', '`'];
     var animationSpeed = 10;
