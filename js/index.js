@@ -223,6 +223,19 @@ function redirect_whatsapp()
 	
 }
 
+
+function redirect_github()
+{
+	setTimeout(function(){
+		location.href = "https://github.com/pgyogesh";
+		}, 3000);
+		
+	$('.terminal').append("<p class='prompt'>Redirecting</p>");
+		
+	setRedirectingPattern("*");
+	
+}
+
 function redirect_facebook()
 {
 	setTimeout(function(){
