@@ -56,8 +56,26 @@ $('.landing-form').on('submit', function(e)
 		case "cls":
 			clearscreen();
 			break;
-		case "reset":
-			resetCmd();
+		case "facebook":
+			redirect_facebook();
+			break;
+		case "twitter":
+			redirect_twitter();
+			break;
+		case "linkedin":
+			redirect_linkedin();
+			break;
+		case "instagram":
+			redirect_instagram();
+			break;
+		case "whatsapp":
+			redirect_whatsapp();
+			break;
+		case "github":
+			redirect_github();
+			break;
+		case "email":
+			redirect_email();
 			break;
 		case "exit":
 			redirect_global();
@@ -106,7 +124,7 @@ function showHelp()
 									"</tr>" +
 									"<tr>" +
 										"<td>blog</td>" +
-										"<td>Redirect to my blog.</td>" +
+										"<td>Redirects to my blog.</td>" +
 									"</tr>" +
 									"<tr>" +
 										"<td>photos</td>" +
@@ -114,7 +132,35 @@ function showHelp()
 									"</tr>" +
 									"<tr>" +
 										"<td>resume</td>" +
-										"<td>Redirect to my online resume.</td>" +
+										"<td>Redirects to my online resume.</td>" +
+									"</tr>" +
+									"<tr>" +
+										"<td>facebook</td>" +
+										"<td>Redirects to my facebook timeline.</td>" +
+									"</tr>" +
+									"<tr>" +
+										"<td>twitter</td>" +
+										"<td>Redirect to my twitter timeline.</td>" +
+									"</tr>" +
+									"<tr>" +
+										"<td>linkedin</td>" +
+										"<td>Redirect to my linkedin account.</td>" +
+									"</tr>" +
+									"<tr>" +
+										"<td>instagram</td>" +
+										"<td>Redirect to my instagram.</td>" +
+									"</tr>" +
+									"<tr>" +
+										"<td>Github</td>" +
+										"<td>Redirect to my github site.</td>" +
+									"</tr>" +
+									"<tr>" +
+										"<td>whatsapp</td>" +
+										"<td>Whatsapp me.</td>" +
+									"</tr>" +
+									"<tr>" +
+										"<td>email</td>" +
+										"<td>email me.</td>" +
 									"</tr>" +
 									"<tr>" +
 										"<td>cmd</td>" +
@@ -123,10 +169,6 @@ function showHelp()
 									"<tr>" +
 										"<td>cls</td>" +
 										"<td>Clears the screen.</td>" +
-									"</tr>" +
-									"<tr>" +
-										"<td>reset</td>" +
-										"<td>Resets the command prompt.</td>" +
 									"</tr>" +
 								"</table>" +
 							"</div>");	
@@ -173,7 +215,77 @@ function redirect_blog()
 	
 }
 
+function redirect_whatsapp()
+{
+	setTimeout(function(){
+		location.href = "https://api.whatsapp.com/send?phone=917676777797&text=Hi%2CYogesh!!!";
+		}, 3000);
+		
+	$('.terminal').append("<p class='prompt'>Redirecting</p>");
+		
+	setRedirectingPattern("*");
+	
+}
 
+function redirect_facebook()
+{
+	setTimeout(function(){
+		location.href = "https://facebook.com/yogeshjadhav96";
+		}, 3000);
+		
+	$('.terminal').append("<p class='prompt'>Redirecting</p>");
+		
+	setRedirectingPattern("*");
+	
+}
+
+function redirect_twitter()
+{
+	setTimeout(function(){
+		location.href = "https://twitter.com/pgyogesh_";
+		}, 3000);
+		
+	$('.terminal').append("<p class='prompt'>Redirecting</p>");
+		
+	setRedirectingPattern("*");
+	
+}
+
+function redirect_instagramm()
+{
+	setTimeout(function(){
+		location.href = "https://www.instagram.com/yogesh_yj_/";
+		}, 3000);
+		
+	$('.terminal').append("<p class='prompt'>Redirecting</p>");
+		
+	setRedirectingPattern("*");
+	
+}
+
+function redirect_linkedin()
+{
+	setTimeout(function(){
+		location.href = "https://www.linkedin.com/in/pgyogesh/";
+		}, 3000);
+		
+	$('.terminal').append("<p class='prompt'>Redirecting</p>");
+		
+	setRedirectingPattern("*");
+	
+}
+
+function redirect_email()
+{
+	setTimeout(function(){
+		location.href = "mailto:yogeshjadhav96@gmail.com";
+		}, 3000);
+		
+	$('.terminal').append("<p class='prompt'>Redirecting</p>");
+		
+	setRedirectingPattern("*");
+	
+}
 
 function redirect_global()
 {
