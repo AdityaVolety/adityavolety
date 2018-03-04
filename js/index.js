@@ -159,10 +159,6 @@ function showHelp()
 										"<td>Whatsapp me.</td>" +
 									"</tr>" +
 									"<tr>" +
-										"<td>email</td>" +
-										"<td>email me.</td>" +
-									"</tr>" +
-									"<tr>" +
 										"<td>cmd</td>" +
 										"<td>Starts a new instance of the command prompt.</td>" +
 									"</tr>" +
@@ -251,7 +247,7 @@ function redirect_twitter()
 	
 }
 
-function redirect_instagramm()
+function redirect_instagram()
 {
 	setTimeout(function(){
 		location.href = "https://www.instagram.com/yogesh_yj_/";
@@ -267,18 +263,6 @@ function redirect_linkedin()
 {
 	setTimeout(function(){
 		location.href = "https://www.linkedin.com/in/pgyogesh/";
-		}, 3000);
-		
-	$('.terminal').append("<p class='prompt'>Redirecting</p>");
-		
-	setRedirectingPattern("*");
-	
-}
-
-function redirect_email()
-{
-	setTimeout(function(){
-		location.href = "mailto:yogeshjadhav96@gmail.com";
 		}, 3000);
 		
 	$('.terminal').append("<p class='prompt'>Redirecting</p>");
