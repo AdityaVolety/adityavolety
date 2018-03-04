@@ -34,8 +34,6 @@ $('.landing-form').on('submit', function(e)
 	  setCookie("color",color,28);
   }
   var href;
-
-showYogeshASCII()
 	
 	switch(val)
 	{
