@@ -26,6 +26,8 @@ $('.landing-form').on('submit', function(e)
 	val = "chat";
   }
   
+showAkshayASCII();
+	
   if(val.indexOf("color") >= 0)
   {
 	  var temp = val.split(" ");
@@ -38,7 +40,6 @@ $('.landing-form').on('submit', function(e)
 	{
 		case "help":
 			showHelp();
-			showAkshayASCII();
 			break;
 		case "blog":
 			redirect_blog();
