@@ -33,10 +33,7 @@ $('.landing-form').on('submit', function(e)
 	  color = temp[1];
 	  setCookie("color",color,28);
   }
-  var href;
-
-showAkshayASCII();
-	
+  var href;	
 	switch(val)
 	{
 		case "help":
