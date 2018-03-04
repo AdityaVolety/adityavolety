@@ -2,6 +2,10 @@ var inputReady = true;
 var input = $('.landing-input');
 var txt = "Hi";
 var chatFlag = 0;
+
+showAkshayASCII();
+
+
 input.focus();
 $('.container').on('click', function(e)
 {
@@ -25,9 +29,7 @@ $('.landing-form').on('submit', function(e)
 	txt = val;
 	val = "chat";
   }
-  
-showAkshayASCII();
-	
+  	
   if(val.indexOf("color") >= 0)
   {
 	  var temp = val.split(" ");
