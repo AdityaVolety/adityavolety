@@ -344,8 +344,7 @@ function clearscreen()
 		<p class='prompt'> !!:       :!!   !!:    !!:    !!:  !!!  :!!   !!:  !!:            !:!  !!:  !!!  </p>
 		<p class='prompt'> :!:       :!:   !::    :!:    :!:  !:!  :!:   !::  :!:           !:!   :!:  !:!  </p>
 		<p class='prompt'>  ::        ::: ::::     ::    ::::: ::   ::: ::::   :: ::::  :::: ::   ::   :::  </p>
-		<p class='prompt'>  :         :: :: :      :      : :  :    :: :: :   : :: ::   :: : :     :   : :  </p>
-        </div>");
+		<p class='prompt'>  :         :: :: :      :      : :  :    :: :: :   : :: ::   :: : :     :   : :  </p></div>");
 
 		
 		var lines = $('.asciicanvas p');
