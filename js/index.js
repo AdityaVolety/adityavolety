@@ -140,19 +140,19 @@ function showHelp()
 									"</tr>" +
 									"<tr>" +
 										"<td>twitter</td>" +
-										"<td>Redirects to my twitter timeline.</td>" +
+										"<td>Redirect to my twitter timeline.</td>" +
 									"</tr>" +
 									"<tr>" +
 										"<td>linkedin</td>" +
-										"<td>Redirects to my linkedin account.</td>" +
+										"<td>Redirect to my linkedin account.</td>" +
 									"</tr>" +
 									"<tr>" +
 										"<td>instagram</td>" +
-										"<td>Redirects to my instagram.</td>" +
+										"<td>Redirect to my instagram.</td>" +
 									"</tr>" +
 									"<tr>" +
 										"<td>Github</td>" +
-										"<td>Redirects to my github site.</td>" +
+										"<td>Redirect to my github site.</td>" +
 									"</tr>" +
 									"<tr>" +
 										"<td>whatsapp</td>" +
