@@ -178,7 +178,7 @@ function redirect_blog()
 function redirect_global()
 {
 	setTimeout(function(){
-		location.href = "http://pgyogesh.com/main/";
+		location.href = "http://pgyogesh.com/GUI/";
 		}, 3000);
 		
 	$('.terminal').append("<p class='prompt'>Redirecting</p>");
