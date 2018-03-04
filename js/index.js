@@ -97,7 +97,7 @@ function resetForm(state)
 
   if (state){
     $('.asciicanvas').removeClass('asciicanvas');
-    message = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    message = ""
   }
 
   $('.new-output').removeClass('new-output');
