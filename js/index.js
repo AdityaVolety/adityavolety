@@ -41,6 +41,7 @@ showAkshayASCII();
 	{
 		case "help":
 			showHelp();
+			showAkshayASCII();
 			break;
 		case "blog":
 			redirect_blog();
