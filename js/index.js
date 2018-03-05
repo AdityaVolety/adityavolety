@@ -1,4 +1,4 @@
-showAkshayASCII();
+showYogeshASCII();
 
 var inputReady = true;
 var input = $('.landing-input');
@@ -335,8 +335,8 @@ function clearscreen()
 	location.reload();
 }
 
-	function showAkshayASCII(){
-		$('.terminal').append("<div class='asciicanvas'>"+
+	function showYogeshASCII(){
+		("<div class='asciicanvas'>"+
         							"<p class='prompt'> @@@@@@@    @@@@@@@@  @@@ @@@   @@@@@@    @@@@@@@@  @@@@@@@@   @@@@@@   @@@  @@@  </p>"+
 								"<p class='prompt'> @@@@@@@@  @@@@@@@@@  @@@ @@@  @@@@@@@@  @@@@@@@@@  @@@@@@@@  @@@@@@@   @@@  @@@  </p>"+
 								"<p class='prompt'> @@!  @@@  !@@        @@! !@@  @@!  @@@  !@@        @@!       !@@       @@!  @@@  </p>"+
