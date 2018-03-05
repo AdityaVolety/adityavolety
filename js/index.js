@@ -141,11 +141,11 @@ function showHelp()
 									"</tr>" +
 									"<tr>" +
 										"<td>twitter</td>" +
-										"<td>Redirect to my twitter timeline.</td>" +
+										"<td>Redirects to my twitter timeline.</td>" +
 									"</tr>" +
 									"<tr>" +
 										"<td>linkedin</td>" +
-										"<td>Redirect to my linkedin account.</td>" +
+										"<td>Redirects to my linkedin account.</td>" +
 									"</tr>" +
 									"<tr>" +
 										"<td>instagram</td>" +
@@ -153,7 +153,7 @@ function showHelp()
 									"</tr>" +
 									"<tr>" +
 										"<td>Github</td>" +
-										"<td>Redirect to my github site.</td>" +
+										"<td>Redirects to my github site.</td>" +
 									"</tr>" +
 									"<tr>" +
 										"<td>whatsapp</td>" +
