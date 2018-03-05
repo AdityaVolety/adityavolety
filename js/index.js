@@ -1,10 +1,9 @@
+showAkshayASCII();
+
 var inputReady = true;
 var input = $('.landing-input');
 var txt = "Hi";
 var chatFlag = 0;
-
-showAkshayASCII();
-
 
 input.focus();
 $('.container').on('click', function(e)
