@@ -336,7 +336,7 @@ function clearscreen()
 }
 
 	function showYogeshASCII(){
-		("<div class='asciicanvas'>"+
+		$('.terminal').append("<div class='asciicanvas'>"+
         							"<p class='prompt'> @@@@@@@    @@@@@@@@  @@@ @@@   @@@@@@    @@@@@@@@  @@@@@@@@   @@@@@@   @@@  @@@  </p>"+
 								"<p class='prompt'> @@@@@@@@  @@@@@@@@@  @@@ @@@  @@@@@@@@  @@@@@@@@@  @@@@@@@@  @@@@@@@   @@@  @@@  </p>"+
 								"<p class='prompt'> @@!  @@@  !@@        @@! !@@  @@!  @@@  !@@        @@!       !@@       @@!  @@@  </p>"+
