@@ -342,7 +342,7 @@ function clearscreen()
 
 function showAbout(){
 		$('.terminal').append("<div class='asciicanvas'>"+
-		"<p class='prompt'>I am a Big Data Engineer and working on Greenplum Database and MarkLogic Database Server at Broadridge Financial Solutions. I feel very lucky that I got chance to work on latest technologies in the industry. Currently, I'm living in Hyderabad, India. Previously I have worked as Greenplum Database Engineer in Wipro Technologies for Pivotal Inc. My interests range from technology to travel. I am also interested in reading and listening to music. People say I take good photos as well. And I always try to be a better version of myself. </p></div>""
+		"<p class='prompt'>I am a Big Data Engineer and working on Greenplum Database and MarkLogic Database Server at Broadridge Financial Solutions. I feel very lucky that I got chance to work on latest technologies in the industry. Currently, I'm living in Hyderabad, India. Previously I have worked as Greenplum Database Engineer in Wipro Technologies for Pivotal Inc. My interests range from technology to travel. I am also interested in reading and listening to music. People say I take good photos as well. And I always try to be a better version of myself. </p></div>");
 }
 
 	function showYogeshASCII(){
