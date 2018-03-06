@@ -360,7 +360,7 @@ function showAbout(){
 				      				"<br>"+
 								"<p class='prompt'>Command Prompt</p>"+
 								"<p class='prompt'>(c) 2018 Yogesh Jadhav. All rights reserved.</p>"+
-								"<p class='prompt>Type \"help\" for list of valid commands or type \"exit\" to visit graphical website.</p></div>");
+								"<p class='prompt>Type <strong>help</strong> for list of valid commands or type <strong>exit</strong> to visit graphical website.</p></div>");
 		var lines = $('.asciicanvas p');
 		$.each(lines, function(index, line){
 			setTimeout(function(){
