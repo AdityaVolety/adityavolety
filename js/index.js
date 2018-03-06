@@ -357,6 +357,7 @@ function showAbout(){
 								"<p class='prompt'> :!:       :!:   !::    :!:    :!:  !:!  :!:   !::  :!:           !:!   :!:  !:!  </p>"+
 								"<p class='prompt'>  ::        ::: ::::     ::    ::::: ::   ::: ::::   :: ::::  :::: ::   ::   :::  </p>"+
 								"<p class='prompt'>  :         :: :: :      :      : :  :    :: :: :   : :: ::   :: : :     :   : :  </p>"+
+				      				"<br>"+
 								"<p class='prompt'>Command Prompt</p>"+
 								"<p class='prompt'>(c) 2018 Yogesh Jadhav. All rights reserved.</p>"+
 								"<p class='prompt>Type \"help\" for list of valid commands or type \"exit\" to visit graphical website.</p></div>");
