@@ -45,6 +45,9 @@ $('.landing-form').on('submit', function(e)
 		case "blog":
 			redirect_blog();
 			break;
+		case "about":
+			showAbout();
+			break;
 		case "resume":
 			redirect_cv();
 			break;
