@@ -127,10 +127,10 @@ function showHelp()
 										"<td>redirects to non-geeky website.</td>" +
 									"</tr>" +
 			      						
-									"<tr>" +
+									/*"<tr>" +
 										"<td>about</td>" +
 										"<td>know more about me</td>" +
-									"</tr>" +
+									"</tr>" +*/
 									"<tr>" +
 										"<td>blog</td>" +
 										"<td>Redirects to my blog.</td>" +
@@ -343,10 +343,23 @@ function clearscreen()
 	location.reload();
 }
 
-function showAbout(){
+	function showAbout(){
 		$('.terminal').append("<div class='asciicanvas'>"+
 		"<p class='prompt'>I am a Big Data Engineer and working on Greenplum Database and MarkLogic Database Server at Broadridge Financial Solutions. I feel very lucky that I got chance to work on latest technologies in the industry. Currently, I'm living in Hyderabad, India. Previously I have worked as Greenplum Database Engineer in Wipro Technologies for Pivotal Inc. My interests range from technology to travel. I am also interested in reading and listening to music. People say I take good photos as well. And I always try to be a better version of myself. </p></div>");
-}
+		var lines = $('.asciicanvas p');
+		$.each(lines, function(index, line){
+			setTimeout(function(){
+				$(line).css({
+					"opacity": 1
+				});
+
+				textEffect($(line))
+			}, index * 100);
+		});
+
+		$('.new-output').velocity(
+			'scroll'
+		), {duration: 100}
 
 	function showYogeshASCII(){
 		$('.terminal').append("<div class='asciicanvas'>"+
