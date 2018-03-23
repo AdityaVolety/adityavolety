@@ -343,17 +343,6 @@ function clearscreen()
 
 	function showYogeshASCII(){
 		$('.terminal').append("<div class='asciicanvas'>"+
-        						"<p class='prompt'> @@@@@@@    @@@@@@@@  @@@ @@@   @@@@@@    @@@@@@@@  @@@@@@@@   @@@@@@   @@@  @@@  </p>"+
-								"<p class='prompt'> @@@@@@@@  @@@@@@@@@  @@@ @@@  @@@@@@@@  @@@@@@@@@  @@@@@@@@  @@@@@@@   @@@  @@@  </p>"+
-								"<p class='prompt'> @@!  @@@  !@@        @@! !@@  @@!  @@@  !@@        @@!       !@@       @@!  @@@  </p>"+
-								"<p class='prompt'> !@!  @!@  !@!        !@! @!!  !@!  @!@  !@!        !@!       !@!       !@!  @!@  </p>"+
-								"<p class='prompt'> @!@@!@!   !@! @!@!@   !@!@!   @!@  !@!  !@! @!@!@  @!!!:!    !!@@!!    @!@!@!@!  </p>"+
-								"<p class='prompt'> !!@!!!    !!! !!@!!    @!!!   !@!  !!!  !!! !!@!!  !!!!!:     !!@!!!   !!!@!!!!  </p>"+
-								"<p class='prompt'> !!:       :!!   !!:    !!:    !!:  !!!  :!!   !!:  !!:            !:!  !!:  !!!  </p>"+
-								"<p class='prompt'> :!:       :!:   !::    :!:    :!:  !:!  :!:   !::  :!:           !:!   :!:  !:!  </p>"+
-								"<p class='prompt'>  ::        ::: ::::     ::    ::::: ::   ::: ::::   :: ::::  :::: ::   ::   :::  </p>"+
-								"<p class='prompt'>  :         :: :: :      :      : :  :    :: :: :   : :: ::   :: : :     :   : :  </p>"+
-				      				"<br>"+
 								"<p class='prompt'>Command Prompt</p>"+
 								"<p class='prompt'>(c) 2018 Yogesh Jadhav. All rights reserved.</p>"+
 								"<p class='prompt'>Type <strong>help</strong> for list of valid commands or type <strong>exit</strong> to visit graphical website.</p></div>");
