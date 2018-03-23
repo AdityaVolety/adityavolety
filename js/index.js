@@ -1,5 +1,3 @@
-showYogeshASCII();
-
 var inputReady = true;
 var input = $('.landing-input');
 var txt = "Hi";
